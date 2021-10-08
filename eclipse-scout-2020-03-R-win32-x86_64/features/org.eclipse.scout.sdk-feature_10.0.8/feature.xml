@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2015 BSI Business Systems Integration AG.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+        BSI Business Systems Integration AG - initial API and implementation
+
+-->
+<feature
+      id="org.eclipse.scout.sdk-feature"
+      label="%featureName"
+      version="10.0.8"
+      provider-name="%providerName"
+      plugin="org.eclipse.scout.sdk.s2e">
+
+   <description url="http://www.eclipse.org/scout/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/releases/2019-09/"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/releases/2019-09/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="4.13.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jdt" version="3.18.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.feature" version="1.13.0" match="greaterOrEqual"/>
+      <import plugin="javax.wsdl" version="1.6.2" match="greaterOrEqual"/> <!-- Is included in the p2 update site via category.xml -->
+   </requires>
+
+   <plugin
+         id="org.eclipse.scout.sdk.s2e"
+         download-size="933"
+         install-size="1284"
+         version="10.0.8"/>
+
+   <plugin
+         id="org.eclipse.scout.sdk.s2e.doc"
+         download-size="1247"
+         install-size="1407"
+         version="10.0.8"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.scout.sdk.s2e.ui"
+         download-size="697"
+         install-size="1499"
+         version="10.0.8"
+         unpack="false"/>
+
+</feature>
