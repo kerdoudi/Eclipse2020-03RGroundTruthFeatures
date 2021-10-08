@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Built-By: genie.emfcompare
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_202
+
+Name: epl-v10.html
+SHA-256-Digest: bfZTK5LN15EseTDjwHyfLbBfEqNWEMGdt+oFKsrN0B4=
+
+Name: copyright.txt
+SHA-256-Digest: SjFGmoS+iZx4zQKsfwqR+lbv3w/LU1Mi1oWP2nXAna4=
+
+Name: feature.xml
+SHA-256-Digest: Co0hswT8SqzPAfzhTu3R9boljG44rFoIvIzNiWzCv/8=
+
+Name: feature.properties
+SHA-256-Digest: C1aunQa8OjAjqUeJDwpSkyxPlUizjV/F3yHBpCSNeE8=
+
+Name: license.html
+SHA-256-Digest: X315zLynvdLZ4DaYSopgxruQUUEadA3FOPNviC+YO24=
+

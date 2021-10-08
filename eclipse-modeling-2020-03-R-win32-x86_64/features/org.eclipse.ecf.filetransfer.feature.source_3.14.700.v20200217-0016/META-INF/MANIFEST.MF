@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Built-By: default
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_202
+
+Name: epl-v10.html
+SHA-256-Digest: mpbQ2vmKpvtKpTDTmcdCxmEhsL2uSh9/+iLSE14d9/0=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.feat
+ ure/pom.properties
+SHA-256-Digest: CT8wKzYYe32QZ1YE0l6n6Lu2MY89nsw6b/QwZLn5BRI=
+
+Name: feature.xml
+SHA-256-Digest: 5mLdxs09ZO6hSJa7f3Io9JxJMoDzCUYw3y37R8oVMrM=
+
+Name: feature.properties
+SHA-256-Digest: CVKA1c1d/ozunix/j88lR8i9J/UM2YcASC9rqFit39Y=
+
+Name: license.html
+SHA-256-Digest: X315zLynvdLZ4DaYSopgxruQUUEadA3FOPNviC+YO24=
+
+Name: META-INF/maven/org.eclipse.ecf/org.eclipse.ecf.filetransfer.feat
+ ure/pom.xml
+SHA-256-Digest: o4n6KqkEZNXRTUYs5Vr+eFOrMtPNJkKZ/jJx8sOLHYg=
+

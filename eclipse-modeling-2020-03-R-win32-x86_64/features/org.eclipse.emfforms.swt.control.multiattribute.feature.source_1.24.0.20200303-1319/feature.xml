@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emfforms.swt.control.multiattribute.feature.source" version="1.24.0.20200303-1319" plugin="org.eclipse.emfforms.swt.control.multiattribute" label="EMF Forms SWT Control for Multi EAttribtues incl. Sources" provider-name="%providerName">
+  <includes id="org.eclipse.emfforms.swt.control.multiattribute.feature" version="1.24.0.20200303-1319"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emfforms.swt.control.multiattribute.source" version="1.24.0.20200303-1319" download-size="0" install-size="0" unpack="false"/>
+</feature>

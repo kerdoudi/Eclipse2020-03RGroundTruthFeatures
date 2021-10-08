@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Built-By: genie.emf-parsley
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_192
+
+Name: about.html
+SHA-256-Digest: 1fuYr0bu6NsJZCAmSom5QtnvnV0Cg8DwLn77Dd1Ql24=
+
+Name: epl-v10.html
+SHA-256-Digest: 1sxnCKJzs3wLc3wO5BBsz6qYLSJy5jCyEruKp8hkq1c=
+
+Name: META-INF/maven/org.eclipse.emf.parsley/org.eclipse.emf.parsley.c
+ do.feature/pom.xml
+SHA-256-Digest: Zz2qmNaWf1c5KutiV0Qao9hGK7syfGK9jnPfs6FKxaA=
+
+Name: feature.xml
+SHA-256-Digest: wm2HLeG5b0QbGP+7li8K1Zr8DZ/XlI822AJYNgG9qqg=
+
+Name: feature.properties
+SHA-256-Digest: tXs7+6qKwkkLl0C7GImL6wGAK6YidKZS9bXdjvOuVK0=
+
+Name: META-INF/maven/org.eclipse.emf.parsley/org.eclipse.emf.parsley.c
+ do.feature/pom.properties
+SHA-256-Digest: mrvY6PurTRa/y04kfc0iDuKF8O+JogTi8X57xBxH62g=
+
+Name: license.html
+SHA-256-Digest: ZPcWT+RA2U0NZV/Hr4/R34K2EI57/1SEd6GAKmcYeg0=
+

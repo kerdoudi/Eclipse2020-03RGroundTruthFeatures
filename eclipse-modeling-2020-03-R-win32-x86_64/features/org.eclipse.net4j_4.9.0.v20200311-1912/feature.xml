@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2007-2019 Eike Stepper (Loehne, Germany) and others.
+	All rights reserved. This program and the accompanying materials
+	are made available under the terms of the Eclipse Public License v1.0
+	which accompanies this distribution, and is available at
+	http://www.eclipse.org/legal/epl-v10.html
+
+	Contributors:
+	  Eike Stepper - initial API and implementation
+-->
+<feature
+      id="org.eclipse.net4j"
+      label="%featureName"
+      version="4.9.0.v20200311-1912"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+      <discovery label="%updateSiteName" url="http://www.eclipse.org/modeling/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.net4j.util.ui"
+         version="4.9.0.v20200311-1912"/>
+
+   <plugin
+         id="org.eclipse.net4j"
+         download-size="193"
+         install-size="380"
+         version="4.9.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.jvm"
+         download-size="27"
+         install-size="42"
+         version="4.2.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.tcp"
+         download-size="80"
+         install-size="148"
+         version="4.2.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http.common"
+         download-size="27"
+         install-size="45"
+         version="4.1.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http"
+         download-size="21"
+         install-size="33"
+         version="4.1.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.net4j.http.server"
+         download-size="30"
+         install-size="51"
+         version="4.1.0.v20200311-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="364"
+         install-size="692"
+         version="1.13.0.v20200108-0001"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
+         download-size="314"
+         install-size="650"
+         version="3.1.0.v201012070820"
+         unpack="false"/>
+
+</feature>

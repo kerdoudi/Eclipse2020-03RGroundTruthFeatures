@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.emf.ecp.emf2web.feature.source" version="1.24.0.20200303-1319" label="JSON Forms Integration incl. Sources" provider-name="Eclipse Modeling Project">
+  <includes id="org.eclipse.emf.ecp.emf2web.feature" version="1.24.0.20200303-1319"/>
+  <description>
+      %description
+   </description>
+  <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.emf.ecp.emf2web.source" version="1.24.0.20200303-1319" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.emf2web.json.source" version="1.24.0.20200303-1319" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.emf2web.ui.source" version="1.24.0.20200303-1319" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.emf.ecp.emf2web.ui.json.source" version="1.24.0.20200303-1319" download-size="0" install-size="0" unpack="false"/>
+</feature>
