@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtend.sdk"
+      label="%featureName"
+      version="2.21.0.v20200302-1509"
+      provider-name="%providerName"
+      plugin="org.eclipse.xtend.ide">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2011, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.xtext.ui" version="2.21.0" match="equivalent"/>
+      <import feature="org.eclipse.xtext.xbase.lib" version="2.21.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib" version="2.21.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.macro" version="2.21.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.source" version="2.21.0" match="equivalent"/>
+      <import plugin="org.eclipse.xtend.lib.macro.source" version="2.21.0" match="equivalent"/>
+      <import plugin="com.google.guava" version="27.1.0" match="compatible"/>
+      <import plugin="io.github.classgraph" version="4.8.35" match="compatible"/>
+      <import plugin="org.apache.commons.lang"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtend.core"
+         download-size="1394"
+         install-size="3825"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.common"
+         download-size="570"
+         install-size="2495"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide"
+         download-size="594"
+         install-size="1340"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.examples"
+         download-size="208"
+         install-size="233"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.doc"
+         download-size="486"
+         install-size="609"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.m2e"
+         download-size="7"
+         install-size="14"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.standalone"
+         download-size="2"
+         install-size="2"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.xtend.core.source"
+         download-size="1327"
+         install-size="6431"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.common.source"
+         download-size="268"
+         install-size="4222"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.ide.source"
+         download-size="423"
+         install-size="1141"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.m2e.source"
+         download-size="3"
+         install-size="8"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.standalone.source"
+         download-size="1"
+         install-size="1"
+         version="2.21.0.v20200302-1428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.junit4"
+         download-size="228"
+         install-size="507"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.junit4.source"
+         download-size="130"
+         install-size="395"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.testing"
+         download-size="176"
+         install-size="403"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.testing.source"
+         download-size="137"
+         install-size="416"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.junit"
+         download-size="169"
+         install-size="433"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.junit.source"
+         download-size="126"
+         install-size="434"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.testing"
+         download-size="143"
+         install-size="371"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.testing.source"
+         download-size="108"
+         install-size="358"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.xtext.ui.testing"
+         download-size="117"
+         install-size="269"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.testing.source"
+         download-size="98"
+         install-size="302"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.testing"
+         download-size="23"
+         install-size="55"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.testing.source"
+         download-size="10"
+         install-size="46"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+</feature>

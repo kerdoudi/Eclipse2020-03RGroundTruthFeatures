@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.runtime"
+      label="%featureName"
+      version="2.21.0.v20200302-1509"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+   <license url="%licenseURL">
+      %license
+   </license>
+   <requires>
+      <import plugin="org.eclipse.xtend"/>
+      <import plugin="org.eclipse.xpand"/>
+      <import plugin="org.eclipse.xtend.typesystem.emf"/>
+      <import plugin="com.google.guava" version="27.1.0" match="compatible"/>
+      <import plugin="javax.inject" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.inject" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.objectweb.asm" version="7.2.0" match="compatible"/>
+      <import plugin="io.github.classgraph" version="4.8.35" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtext"
+         download-size="2479"
+         install-size="5633"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.source"
+         download-size="1516"
+         install-size="4961"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.generator"
+         download-size="805"
+         install-size="2038"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.generator.source"
+         download-size="493"
+         install-size="1946"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.generator"
+         download-size="946"
+         install-size="2170"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.xtext.generator.source"
+         download-size="1130"
+         install-size="3782"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.ide"
+         download-size="112"
+         install-size="546"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.xtext.ide.source"
+         download-size="86"
+         install-size="1185"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.util"
+         download-size="278"
+         install-size="593"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.util.source"
+         download-size="130"
+         install-size="375"
+         version="2.21.0.v20200302-1141"
+         unpack="false"/>
+
+   <plugin
+         id="org.antlr.runtime"
+         download-size="208"
+         install-size="437"
+         version="3.2.0.v201101311130"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="418"
+         install-size="798"
+         version="1.2.15.v201012070815"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.logging"
+         download-size="6"
+         install-size="9"
+         version="1.2.15.v20200302-1241"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types"
+         download-size="460"
+         install-size="1094"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.common.types.source"
+         download-size="327"
+         install-size="1319"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.builder"
+         download-size="360"
+         install-size="813"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.builder.source"
+         download-size="200"
+         install-size="690"
+         version="2.21.0.v20200302-1241"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ecore"
+         download-size="9"
+         install-size="17"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.ecore.source"
+         download-size="6"
+         install-size="11"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.smap"
+         download-size="13"
+         install-size="23"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.smap.source"
+         download-size="10"
+         install-size="29"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+    <plugin
+          id="org.eclipse.xtext.xtext.wizard"
+          download-size="216"
+          install-size="429"
+          version="2.21.0.v20200302-1141"
+          unpack="false"/>
+          
+    <plugin
+          id="org.eclipse.xtext.xtext.wizard.source"
+          download-size="196"
+          install-size="685"
+          version="2.21.0.v20200302-1141"
+          unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.builder.standalone"
+         download-size="42"
+         install-size="90"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.xtext.builder.standalone.source"
+         download-size="40"
+         install-size="110"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.java"
+         download-size="45"
+         install-size="99"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.java.source"
+         download-size="52"
+         install-size="141"
+         version="2.21.0.v20200302-1201"
+         unpack="false"/>
+
+</feature>
