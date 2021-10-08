@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.rdt.sync.fortran"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ptp.rdt.sync.fortran.ui"
+         download-size="21"
+         install-size="42"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+</feature>

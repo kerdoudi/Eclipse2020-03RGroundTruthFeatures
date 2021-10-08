@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.rm.ibm.ll"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description url="http://eclipse.org/ptp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ptp.rm.ibm.ll.doc.user"
+         download-size="727"
+         install-size="1026"
+         version="4.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.ibm.ll.ui"
+         download-size="19"
+         install-size="103"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+</feature>

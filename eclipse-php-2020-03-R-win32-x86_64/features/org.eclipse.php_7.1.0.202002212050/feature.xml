@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2009 IBM Corporation and others.
+
+    This program and the accompanying materials are made
+    available under the terms of the Eclipse Public License 2.0
+    which is available at https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        IBM Corporation - initial API and implementation
+        Zend Technologies
+ -->
+<feature
+      id="org.eclipse.php"
+      label="%featureName"
+      version="7.1.0.202002212050"
+      provider-name="%providerName"
+      plugin="org.eclipse.php.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.dltk.core" version="6.1.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.dltk.core.index.lucene" version="5.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wst.jsdt.feature"/>
+      <import feature="org.eclipse.wst.web_ui.feature" version="3.11.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.platform" version="4.13.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.php.core"
+         download-size="8561"
+         install-size="37289"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.core"
+         download-size="882"
+         install-size="1934"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.ui"
+         download-size="754"
+         install-size="1569"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.server.core"
+         download-size="50"
+         install-size="90"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.server.ui"
+         download-size="143"
+         install-size="288"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.ui"
+         download-size="2913"
+         install-size="6467"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.daemon"
+         download-size="21"
+         install-size="32"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.help"
+         download-size="3453"
+         install-size="4131"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.core.parser"
+         download-size="128"
+         install-size="254"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.formatter.core"
+         download-size="118"
+         install-size="303"
+         version="7.1.0.202002212050"/>
+
+   <plugin
+         id="org.eclipse.php.formatter.ui"
+         download-size="191"
+         install-size="467"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.refactoring.core"
+         download-size="264"
+         install-size="627"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.refactoring.ui"
+         download-size="237"
+         install-size="486"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.builtin.server.core"
+         download-size="115"
+         install-size="236"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.builtin.server.ui"
+         download-size="58"
+         install-size="102"
+         version="7.1.0.202002212050"
+         unpack="false"/>
+
+</feature>

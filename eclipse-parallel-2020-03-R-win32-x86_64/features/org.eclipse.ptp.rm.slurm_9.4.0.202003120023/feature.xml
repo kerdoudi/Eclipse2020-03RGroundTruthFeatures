@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.rm.slurm"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description url="http://eclipse.org/ptp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ptp.rm.slurm.help"
+         download-size="735"
+         install-size="785"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+</feature>

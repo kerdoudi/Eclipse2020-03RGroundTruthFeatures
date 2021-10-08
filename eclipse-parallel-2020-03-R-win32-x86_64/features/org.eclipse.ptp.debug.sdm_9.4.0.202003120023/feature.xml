@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.debug.sdm"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description url="http://eclipse.org/ptp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ptp.aix"
+         download-size="376"
+         install-size="1309"
+         version="9.4.0.202003120023"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.ptp.linux"
+         download-size="1251"
+         install-size="3881"
+         version="9.4.0.202003120023"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.ptp.macosx"
+         download-size="154"
+         install-size="410"
+         version="9.4.0.202003120023"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.ptp.utils"
+         download-size="184"
+         install-size="619"
+         version="9.4.0.202003120023"/>
+
+   <plugin
+         id="org.eclipse.ptp.debug.sdm"
+         download-size="798"
+         install-size="3338"
+         version="9.4.0.202003120023"/>
+
+   <plugin
+         id="org.eclipse.ptp.proxy"
+         download-size="203"
+         install-size="709"
+         version="9.4.0.202003120023"/>
+
+</feature>

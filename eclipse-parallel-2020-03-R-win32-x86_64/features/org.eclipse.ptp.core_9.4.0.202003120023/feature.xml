@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.core"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description url="http://eclipse.org/ptp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ptp.core"
+         download-size="33"
+         install-size="63"
+         version="8.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.debug.core"
+         download-size="638"
+         install-size="1371"
+         version="7.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.debug.ui"
+         download-size="679"
+         install-size="1120"
+         version="5.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.launch"
+         download-size="207"
+         install-size="458"
+         version="7.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.ui"
+         download-size="334"
+         install-size="540"
+         version="7.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.doc.user"
+         download-size="20523"
+         install-size="22992"
+         version="9.2.1.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.proxy.protocol"
+         download-size="236"
+         install-size="412"
+         version="6.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp"
+         download-size="147"
+         install-size="195"
+         version="9.4.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.ems.core"
+         download-size="40"
+         install-size="74"
+         version="3.1.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.ems.ui"
+         download-size="62"
+         install-size="122"
+         version="3.1.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.cdt.compilers.core"
+         download-size="13"
+         install-size="22"
+         version="6.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.core"
+         download-size="164"
+         install-size="377"
+         version="1.2.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.ui"
+         download-size="34"
+         install-size="66"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.control.core"
+         download-size="142"
+         install-size="297"
+         version="2.1.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.control.ui"
+         download-size="119"
+         install-size="264"
+         version="2.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.configs"
+         download-size="97"
+         install-size="483"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.doc.user"
+         download-size="2205"
+         install-size="2338"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.core"
+         download-size="267"
+         install-size="595"
+         version="2.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.da"
+         download-size="252"
+         install-size="761"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.ui"
+         download-size="196"
+         install-size="457"
+         version="2.0.0.202003120023"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.da.server"
+         download-size="158"
+         install-size="880"
+         version="2.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.monitor.core"
+         download-size="43"
+         install-size="83"
+         version="2.0.1.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.lml.monitor.ui"
+         download-size="159"
+         install-size="285"
+         version="2.1.1.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.debug.sdm.core"
+         download-size="67"
+         install-size="151"
+         version="7.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.debug.sdm.ui"
+         download-size="38"
+         install-size="68"
+         version="5.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.rm.jaxb.java11"
+         download-size="9"
+         install-size="12"
+         version="1.0.0.202003120023"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

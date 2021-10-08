@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2018, 2020 ArSysOp and others
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	https://www.eclipse.org/legal/epl-2.0/.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+-->
+<feature
+      id="org.eclipse.passage.lic.equinox.feature"
+      label="%featureName"
+      version="0.6.200.v20200229-1715"
+      provider-name="%providerName"
+      plugin="org.eclipse.passage.lic.equinox">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.passage.lic.api"
+         download-size="30"
+         install-size="42"
+         version="0.7.0.v20200229-1715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.base"
+         download-size="75"
+         install-size="157"
+         version="0.6.1.v20200226-1849"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.equinox"
+         download-size="67"
+         install-size="125"
+         version="0.5.200.v20200226-1849"
+         unpack="false"/>
+
+</feature>

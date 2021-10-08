@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ptp.etfw"
+      label="%featureName"
+      version="9.4.0.202003120023"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.cdt.core"/>
+      <import plugin="org.eclipse.cdt.make.core"/>
+      <import plugin="org.eclipse.cdt.managedbuilder.core"/>
+      <import plugin="org.eclipse.cdt.debug.core"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.cdt.launch"/>
+      <import plugin="org.eclipse.ptp.core"/>
+      <import plugin="org.eclipse.ptp.launch"/>
+      <import plugin="org.eclipse.ptp.debug.core"/>
+      <import plugin="org.eclipse.ptp.etfw" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.ide" version="3.5.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ptp.etfw"
+         download-size="154"
+         install-size="333"
+         version="7.1.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.parallel"
+         download-size="24"
+         install-size="43"
+         version="2.0.0.202003120023"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.toolopts"
+         download-size="44"
+         install-size="79"
+         version="5.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.feedback"
+         download-size="118"
+         install-size="217"
+         version="6.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.doc.user"
+         download-size="453"
+         install-size="513"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.jaxb"
+         download-size="53"
+         install-size="131"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ptp.etfw.launch"
+         download-size="44"
+         install-size="95"
+         version="1.0.0.202003120023"
+         unpack="false"/>
+
+</feature>

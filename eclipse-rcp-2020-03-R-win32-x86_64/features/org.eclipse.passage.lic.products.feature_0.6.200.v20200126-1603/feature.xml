@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2019, 2020 ArSysOp and others
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	https://www.eclipse.org/legal/epl-2.0/.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+-->
+<feature
+      id="org.eclipse.passage.lic.products.feature"
+      label="%featureName"
+      version="0.6.200.v20200126-1603"
+      provider-name="%providerName"
+      plugin="org.eclipse.passage.lic.products">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.passage.lic.equinox.feature" version="0.0.0" match="equivalent"/>
+      <import feature="org.eclipse.passage.lic.emf.feature" version="0.0.0" match="equivalent"/>
+      <import feature="org.eclipse.passage.lic.e4.ui.feature" version="0.0.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.passage.lic.products"
+         download-size="16"
+         install-size="24"
+         version="0.5.200.v20200126-1603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.products.ecore"
+         download-size="9"
+         install-size="16"
+         version="0.5.100.v20200126-1603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.products.model"
+         download-size="39"
+         install-size="87"
+         version="0.5.100.v20200126-1603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.products.migration"
+         download-size="11"
+         install-size="14"
+         version="0.5.100.v20200126-1603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.products.edit"
+         download-size="25"
+         install-size="51"
+         version="0.5.100.v20200126-1603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.products.e4.ui"
+         download-size="11"
+         install-size="15"
+         version="0.5.100.v20200126-1603"
+         unpack="false"/>
+
+</feature>

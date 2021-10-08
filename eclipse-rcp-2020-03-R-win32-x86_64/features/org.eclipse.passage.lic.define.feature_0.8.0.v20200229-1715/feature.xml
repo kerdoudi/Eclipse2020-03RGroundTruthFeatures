@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2019, 2020 ArSysOp and others
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	https://www.eclipse.org/legal/epl-2.0/.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+-->
+<feature
+      id="org.eclipse.passage.lic.define.feature"
+      label="%featureName"
+      version="0.8.0.v20200229-1715"
+      provider-name="%providerName"
+      plugin="org.eclipse.passage.lic.define.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.passage.lic.execute.feature"
+         version="0.8.0.v20200229-1715"/>
+
+   <includes
+         id="org.eclipse.passage.lic.features.feature"
+         version="0.6.200.v20200126-1151"/>
+
+   <includes
+         id="org.eclipse.passage.lic.products.feature"
+         version="0.6.200.v20200126-1603"/>
+
+   <includes
+         id="org.eclipse.passage.lic.users.feature"
+         version="0.6.200.v20200126-1615"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.define.branding"
+         download-size="12"
+         install-size="16"
+         version="0.1.0.v20200128-0621"
+         unpack="false"/>
+
+</feature>
